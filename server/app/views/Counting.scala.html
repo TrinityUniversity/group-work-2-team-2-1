@@ -11,9 +11,9 @@
 
 <h2>Socket Counter</h2>
 <input type="hidden" id="ws-route" value="@routes.Application.socket.absoluteURL()"> 
-<button>Increment</button>
+<button id="socketButton">Increment</button>
 
-<p>The number is currently <span></span> .
+<p>The number is currently <span id="socketCounter"></span> .
     Do your part in clicking, comrade!</p>
 	
 <script src="@routes.Assets.versioned("javascript/Counting.js")"></script>
