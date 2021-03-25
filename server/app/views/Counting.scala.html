@@ -7,5 +7,13 @@
 
 <p id="counterText">The number is currently <span id="counter2"></span> .
     Do your part in clicking, comrade!</p>
+
+
+<h2>Socket Counter</h2>
+<input type="hidden" id="ws-route" value="@routes.Application.socket.absoluteURL()"> 
+<button>Increment</button>
+
+<p>The number is currently <span></span> .
+    Do your part in clicking, comrade!</p>
 	
 <script src="@routes.Assets.versioned("javascript/Counting.js")"></script>
