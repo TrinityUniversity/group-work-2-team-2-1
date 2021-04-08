@@ -1,5 +1,3 @@
-console.log("here");
-
 const ce = React.createElement;
 
 class showComponent extends React.Component {
